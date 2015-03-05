@@ -11,11 +11,23 @@
  */
 
 /* Zona para incluir las bibliotecas o las cabeceras */
-
+#include "utils.h"
+#include <stdio.h>
 /* Zona para declarar la funcion estática */
+static int multiplicar_numero_secreto (int n)
+{
+	return n*288;
+}
 
 /* Programa Principal */
-void main ()
+int main ()
 {
-
+	int n = 2;
+	if (es_par(n)){
+		printf("%d\n",multiplicar_numero_secreto(n));
+		return multiplicar_numero_secreto(n);
+	}else{
+		printf("El numero no es par");
+		return -1;
+	}
 }
