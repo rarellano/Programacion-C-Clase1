@@ -8,5 +8,5 @@ void imprime_nombre (char *nombre)
 
 void main ()
 {
-	imprime_nombre("Alvaro");
+	imprime_nombre("Rafa");
 }
