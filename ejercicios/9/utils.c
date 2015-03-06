@@ -1,11 +1,11 @@
 #include "utils.h"
-
+#include <stdio.h>
 int cuenta_numero_letras(char cadena[], char letra)
 {
 	int i;
 	int nl = 0;
 
-	for(i=0; cadena[i] = letra; i++){
+	for(i=0; cadena[i] == letra; i++){
 		if(cadena[i] == letra)
 			nl++;
 	}

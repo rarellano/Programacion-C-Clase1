@@ -2,7 +2,7 @@
 #include <assert.h>
 
 static int test1(void){
-	char cadena[40] = "Esto es una prueba para contar";
+	char cadena[40] = "aoa";
 	int res = cuenta_numero_letras(cadena,'a');
 	assert(res == 2);		
 }
